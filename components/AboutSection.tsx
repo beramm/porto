@@ -46,7 +46,7 @@ const AboutSection = () => {
             <p>
               I graduated from Sanata Dharma University, Yogyakarta, in 2025 with a B.S. in Computer Science,
               achieving a 3.87/4.00 GPA. I completed my studies in 3.5 years with a scholarship from Van Deventer-Maas
-              Indonesia. During my time at university, I also worked as a Professor's Assistant for seven programming-related
+              Indonesia. During my time at university, I also worked as a Professor&apos;s Assistant for seven programming-related
               classes across multiple semesters, where I taught practical sessions of 20 to 30 students, evaluated assignments,
               and assisted with grading throughout the course.
             </p>
@@ -76,7 +76,7 @@ const AboutSection = () => {
                 complex algorithmic problems under pressure. I also won <span className="font-semibold">First Place </span> 
                 in the <span className="font-semibold">IT Days Web Development Competition</span> hosted by Sanata Dharma 
                 University in 2024, where I built a full-stack web application using Laravel for the backend and React.js 
-                for the frontend. These experiences helped sharpen my technical and teamwork skills, and I'm always eager
+                for the frontend. These experiences helped sharpen my technical and teamwork skills, and I&apos;m always eager
                  for new challenges that push me to grow.
             </p>
 
