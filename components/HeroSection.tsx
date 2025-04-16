@@ -10,7 +10,7 @@ const HeroSection = () => {
       <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left">
         <div className="md:mt-2 md:w-1/2">
           <Image
-            src="/headshot.png"
+            src="/bram.png"
             alt=""
             width={325}
             height={325}
@@ -18,15 +18,15 @@ const HeroSection = () => {
           />
         </div>
         <div className="md:mt-2 md:w-3/5">
-          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I&#39;m Hosna!</h1>
+          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I&#39;m Chandra!</h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
-            I&#39;m a{" "}
+            I'm an{" "}
             <span className="font-semibold text-teal-600">
-              Software Engineer{" "}
-            </span>
-            based in Los Angeles, CA. Working towards creating software that
-            makes life easier and more meaningful.
+              AI/ML enthusiast
+            </span>{" "}
+            and a proud Bangkit Academy alumni from the Machine Learning path, with a couple of web development experiences.
           </p>
+
           <Link
             to="projects"
             className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"

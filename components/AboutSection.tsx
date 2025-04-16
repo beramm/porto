@@ -5,14 +5,20 @@ const skills = [
   { skill: "HTML" },
   { skill: "CSS" },
   { skill: "JavaScript" },
-  { skill: "TypeScript" },
   { skill: "Python" },
   { skill: "React" },
   { skill: "Next.js" },
-  { skill: "Tailwind CSS" },
   { skill: "Git" },
-  { skill: "GitHub" },
   { skill: "Jupyter Notebooks" },
+  { skill: "Tensorflow" },
+  { skill: "English" },
+  { skill: "PHP" }, { skill: "Laravel" }, { skill: "AI" }, { skill: "Machine Learning" },
+
+
+
+
+
+
 ]
 
 const AboutSection = () => {
@@ -27,39 +33,53 @@ const AboutSection = () => {
         <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
           <div className="md:w-1/2 ">
             <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
-              Get to know me!
+              What to know about me ?
             </h1>
             <p>
-              Hi, my name is Hosna and I am a{" "}
-              <span className="font-bold">{"highly ambitious"}</span>,
-              <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> software engineer
-              based in Los Angeles, CA.
+              Hi, my name is Chandra, and I am{" "}
+              <span className="font-bold">quick to adapt</span>,{" "}
+              <span className="font-bold">an object-oriented thinker</span>, and{" "}
+              <span className="font-bold">always eager to learn new things</span>.
             </p>
+
             <br />
             <p>
-              I graduated from California State University, Northridge in 2019
-              with a BS in Computer Engineering and have been working in the
-              field ever since.
+              I graduated from Sanata Dharma University, Yogyakarta, in 2025 with a B.S. in Computer Science,
+              achieving a 3.87/4.00 GPA. I completed my studies in 3.5 years with a scholarship from Van Deventer-Maas
+              Indonesia. During my time at university, I also worked as a Professor's Assistant for seven programming-related
+              classes across multiple semesters, where I taught practical sessions of 20 to 30 students, evaluated assignments,
+              and assisted with grading throughout the course.
             </p>
+
+
+            <br />
+            <div>
+              <p>
+                I had the opportunity to join the Bangkit Academy, a prestigious career readiness program led by Google,
+                Tokopedia, Gojek, and Traveloka. As part of the Machine Learning path, I collaborated with a cross-functional
+                team of AI, Cloud Computing, and Mobile Development students to develop <span className="font-semibold">Yoga
+                  AI</span>, an AI-based mobile application that acts as a virtual yoga instructor. We implemented a pretrained
+                model to analyze user posture and provide real-time feedback, helping users improve their form and practice
+                safely. During the program, I earned my <span className="font-semibold">TensorFlow Developer Certificate </span>
+                and completed several other industry-recognized certifications through Coursera, strengthening my expertise in
+                machine learning and applied AI.
+              </p>
+
+            </div>
+
             <br />
             <p>
-              I have a wide range of hobbies and passions that keep me busy.
-              From reading, playing sports, traveling, to making YouTube videos,
-              I am always seeking new experiences and love to keep myself
-              engaged and learning new things.
+              I believe in <span className="font-bold text-teal-500">continuous growth</span>,
+               and one way I pursue that is by actively participating in tech competitions. I took part in the 
+               <span className="font-semibold"> IEEEXtreme 17.0</span>, a 24-hour global competitive programming
+                challenge organized by IEEE, where I ranked in the Top 10 among Indonesian participants by solving 
+                complex algorithmic problems under pressure. I also won <span className="font-semibold">First Place </span> 
+                in the <span className="font-semibold">IT Days Web Development Competition</span> hosted by Sanata Dharma 
+                University in 2024, where I built a full-stack web application using Laravel for the backend and React.js 
+                for the frontend. These experiences helped sharpen my technical and teamwork skills, and I'm always eager
+                 for new challenges that push me to grow.
             </p>
-            <br />
-            <p>
-              I believe that you should{" "}
-              <span className="font-bold text-teal-500">
-                never stop growing
-              </span>{" "}
-              and that&#39;s what I strive to do, I have a passion for
-              technology and a desire to always push the limits of what is
-              possible. I am excited to see where my career takes me and am
-              always open to new opportunities. 🙂
-            </p>
+
           </div>
           <div className="text-center md:w-1/2 md:text-left">
             <h1 className="text-2xl font-bold mb-6">My Skills</h1>
@@ -76,7 +96,7 @@ const AboutSection = () => {
               })}
             </div>
             <Image
-              src="/hero-image.png"
+              src="/cartoon.png"
               alt=""
               width={325}
               height={325}

@@ -6,27 +6,27 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Thankful Thoughts",
+    name: "Business Profile",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+      "Designed and developed a company profile website for an Australia-based business using Next.js framework to showcase the business's services and values. ",
+    image: "/cec.jpg",
+    github: "https://github.com/beramm/cuttingedgecorrection",
+    link: "https://www.cecdetailing.com.au/",
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
+    name: "Yogain : Yoga AI-based Instructor Mobile Application ",
+    description: "Implemented a pretrained model to analyze user posture and coordinated cross-functional teams (AI, Cloud Computing, Mobile Development) .",
+    image: "/yogain2.jpg",
+    github: "https://github.com/Yogain-FinalProjectBangkit",
+    link: "",
   },
   {
-    name: "Kator Family Photos",
+    name: "LLM OpenAI's API Integration: AI-Powered Quiz Maker",
     description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+      "Implemented OpenAI's API to generate quizzes dynamically based on user-selected topics using Svelte",
+    image: "/quiz.jpg",
+    github: "https://github.com/vianneynara/quiz-gpt",
+    link: "https://vianneynara.github.io/quiz-gpt/",
   },
 ]
 
